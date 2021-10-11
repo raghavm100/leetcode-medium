@@ -44,6 +44,8 @@ var removeNthFromEnd = function(head, n) {
 
 /*
     ====
+    Sol: Simple looping through the list and starting to track the delete node's previous.
+    
     TC: O(n)
     SC: O(1)
     ====
